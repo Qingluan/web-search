@@ -1,0 +1,27 @@
+.text-card {
+    max-width: 640px;
+    margin:10px;
+    -webkit-transition: 1s; /* Safari */
+    transition:  1s;
+}
+.text-card-body {
+    overflow:hidden;
+    text-overflow: ellipsis; 
+    max-height: 220px;
+    -webkit-transition:  1s; /* Safari */
+    transition:  1s;
+}
+
+.text-card-body:hover, .text-card:hover {
+    max-height: 20000px;
+    overflow:none;
+    text-overflow: none;
+    /* max-width: 2000px; */
+    /* width: 90%; */
+    
+    /* left: 10px; */
+
+}
+.text-card-body:hover ~div {
+    display: none;
+}
