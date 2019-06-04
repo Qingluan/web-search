@@ -1,8 +1,8 @@
 .text-card {
     max-width: 640px;
     margin:10px;
-    -webkit-transition: 1s; /* Safari */
-    transition:  1s;
+    /* -webkit-transition: 1s; //Safari */
+    /* transition:  1s; */
 }
 .text-card-body {
     overflow:hidden;

@@ -49,5 +49,6 @@ $('#id-search').bind('keypress', function(e) {
             value:"Loading...",
             disabled:true
         })
+        $("div.body").html('')
     }
 });
